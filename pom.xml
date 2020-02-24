@@ -45,7 +45,7 @@
         <upstream.url>https://github.com/kevva/download</upstream.url>
         <extractDir>${project.build.directory}/download-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
-        <sonar.host.url>https://sonar.my-internal-company-domain.net</sonar.host.url>
+        <sonar.host.url>C:\Users\Linus\Google-drive-for-simplilearn-batch_ytree\Google-drive-for-simplilearn-batch\sonar\sonarqube-6.4\sonarqube-6.4</sonar.host.url>
     </properties>
     
     <dependencies>
