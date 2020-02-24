@@ -45,8 +45,9 @@
         <upstream.url>https://github.com/kevva/download</upstream.url>
         <extractDir>${project.build.directory}/download-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
+        <sonar.host.url>https://sonar.my-internal-company-domain.net</sonar.host.url>
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>org.webjars</groupId>
